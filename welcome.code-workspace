@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../monks-active-tiles"
+		},
+		{
+			"path": "../../../../../../../../Foundry/Foundry Virtual Tabletop/resources/app/public/scripts"
+		}
+	],
+	"settings": {}
+}

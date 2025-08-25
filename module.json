@@ -1,0 +1,64 @@
+{
+  "id": "welcome",
+  "title": "Welcome",
+  "description": "welcome page",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Greylore",
+      "discord": "LordGreylore",
+      "flags": {}
+    }
+  ],
+  "scripts": [
+    "welcome.js"
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12",
+    "maximum": "13"
+  },
+  "packs": [
+    {
+      "name": "welcome",
+      "label": "Scenes",
+      "path": "packs/welcome",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "journals",
+      "label": "Journals",
+      "path": "packs/journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "monks-active-tiles",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "monks-active-tiles",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "foundryvtt-simple-calendar",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  }
+}
