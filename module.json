@@ -3,6 +3,8 @@
   "title": "Welcome",
   "description": "welcome page",
   "version": "1.0.0",
+  "manifest": "https://github.com/greylore-d20/foundryvtt-module-welcome/releases/latest/download/module.json",
+  "download": "https://github.com/greylore-d20/foundryvtt-module-welcome/releases/download/release-1.0.0/module.zip", 
   "authors": [
     {
       "name": "Greylore",
